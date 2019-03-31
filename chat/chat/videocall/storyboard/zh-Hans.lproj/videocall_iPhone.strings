@@ -1,0 +1,62 @@
+
+/* Class = "IBUIButton"; normalTitle = "Hangup"; ObjectID = "0Ss-0Z-UZt"; */
+"0Ss-0Z-UZt.normalTitle" = "挂断";
+
+/* Class = "IBUIButton"; normalTitle = "1280x720"; ObjectID = "IYm-vH-Elt"; */
+"IYm-vH-Elt.normalTitle" = "1280x720";
+
+/* Class = "IBUIButton"; normalTitle = "Layout"; ObjectID = "Lvd-hh-5Rh"; */
+"Lvd-hh-5Rh.normalTitle" = "布局";
+
+/* Class = "IBUIButton"; normalTitle = "Speaker"; ObjectID = "Pyw-Mr-EcT"; */
+"Pyw-Mr-EcT.normalTitle" = "扬声器";
+
+/* Class = "IBUIButton"; normalTitle = "Exit"; ObjectID = "TTX-cc-2Dk"; */
+"TTX-cc-2Dk.normalTitle" = "退会";
+
+/* Class = "IBUILabel"; text = "Participants"; ObjectID = "VCY-Ab-wEN"; */
+"VCY-Ab-wEN.text" = "参会者";
+
+/* Class = "IBUIButton"; normalTitle = "Speak"; ObjectID = "Y0B-ZL-LgE"; */
+"Y0B-ZL-LgE.normalTitle" = "发言";
+
+/* Class = "IBUIButton"; normalTitle = "audio"; ObjectID = "Y27-qW-bdb"; */
+"Y27-qW-bdb.normalTitle" = "audio";
+
+/* Class = "IBUILabel"; text = "End"; ObjectID = "ZnP-0C-VBh"; */
+"ZnP-0C-VBh.text" = "挂断";
+
+/* Class = "IBUILabel"; text = "DisplayName"; ObjectID = "fRk-AP-Bh0"; */
+"fRk-AP-Bh0.text" = "显示名";
+
+/* Class = "IBUILabel"; text = "Info"; ObjectID = "fh7-gb-F5i"; */
+"fh7-gb-F5i.text" = "信息";
+
+/* Class = "IBUIButton"; normalTitle = "Pin"; ObjectID = "hJ8-u3-iOP"; */
+"hJ8-u3-iOP.normalTitle" = "Pin";
+
+/* Class = "IBUIButton"; normalTitle = "Present"; ObjectID = "ndM-9N-MMq"; */
+"ndM-9N-MMq.normalTitle" = "主讲";
+
+/* Class = "IBUILabel"; text = "Participants"; ObjectID = "pa9-WV-GPs"; */
+"pa9-WV-GPs.text" = "参会者";
+
+/* Class = "IBUIButton"; normalTitle = "Video"; ObjectID = "xM5-h2-6Iz"; */
+"xM5-h2-6Iz.normalTitle" = "视频";
+
+/* Class = "IBUIButton"; normalTitle = "switchCam"; ObjectID = "y7G-ot-vLl"; */
+"y7G-ot-vLl.normalTitle" = "switchCam";
+
+/* Class = "IBUIButton"; normalTitle = "Host Control"; ObjectID = "zYz-gz-Axg"; */
+"zYz-gz-Axg.normalTitle" = "授课模式";
+
+/* Class = "IBUIButton"; normalTitle = "video"; ObjectID = "zrJ-bk-v9B"; */
+"zrJ-bk-v9B.normalTitle" = "video";
+
+/* Class = "IBUIButton"; normalTitle = "Quality"; ObjectID = "5fN-me-B4r"; */
+"5fN-me-B4r.normalTitle" = "视频质量";
+
+/* Class = "IBUIButton"; normalTitle = "Hangup"; ObjectID = "2M3-xh-pDn"; */
+"2M3-xh-pDn.normalTitle" = "挂断";
+
+"ttE-fz-747.normalTitle" = "静音"

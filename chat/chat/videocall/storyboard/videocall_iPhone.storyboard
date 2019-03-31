@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Acu Start View Controller-->
+        <scene sceneID="4H3-ou-fLQ">
+            <objects>
+                <viewController storyboardIdentifier="AcuStartDlg" id="5he-YK-FOG" customClass="AcuStartViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kjr-4T-bSE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="0zP-RT-rrk">
+                                <rect key="frame" x="35" y="54" width="250" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="YhY-Yo-Cyl">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Start Conference" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="umd-00-dee">
+                                                <rect key="frame" x="53" y="8" width="133" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" animating="YES" style="whiteLarge" id="bMw-wY-GGY">
+                                                <rect key="frame" x="203" y="2" width="37" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </activityIndicatorView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="ic_launcher.png" id="Qtf-rZ-Acr">
+                                                <rect key="frame" x="1" y="0.0" width="42" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="se0-4h-FkR">
+                                        <rect key="frame" x="88" y="332" width="74" height="41"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didCancel:" destination="5he-YK-FOG" eventType="touchUpInside" id="6wS-49-5Zj"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="iJi-iv-0Hs">
+                                        <rect key="frame" x="6" y="50" width="239" height="274"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="cancelBtn" destination="se0-4h-FkR" id="a4W-QL-kiM"/>
+                        <outlet property="progressCtrl" destination="bMw-wY-GGY" id="AEF-gA-qIW"/>
+                        <outlet property="startInfo" destination="iJi-iv-0Hs" id="Kb7-vL-kPN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t8m-AL-fbm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-323" y="82"/>
+        </scene>
+        <!--Acu Conference Presenting Left View Controller-->
+        <scene sceneID="ZjY-mO-eh9">
+            <objects>
+                <viewController storyboardIdentifier="AcuConferencePresenting_Left" id="ddj-2r-mDL" customClass="AcuConferencePresentingLeftViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ujV-7l-ctb">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Participants" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VCY-Ab-wEN">
+                                <rect key="frame" x="0.0" y="0.0" width="250" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="36" sectionHeaderHeight="22" sectionFooterHeight="22" id="36A-ZB-8mG">
+                                <rect key="frame" x="0.0" y="24" width="250" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="AcuParticipantCell" rowHeight="36" id="fcj-W0-I0Y" customClass="AcuParticipantCell">
+                                        <rect key="frame" x="0.0" y="22" width="150" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fcj-W0-I0Y" id="RXG-FC-aG9">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="35"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Participants" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pa9-WV-GPs">
+                                                    <rect key="frame" x="20" y="9" width="130" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="mTU-Bc-Skx">
+                                                    <rect key="frame" x="2" y="10" width="15" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="aPs-hi-JIq">
+                                                    <rect key="frame" x="182" y="10" width="15" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="YEV-tz-jmm">
+                                                    <rect key="frame" x="164" y="10" width="15" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Oti-CY-X40">
+                                                    <rect key="frame" x="200" y="10" width="15" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="jae-Sr-cMr">
+                                                    <rect key="frame" x="218" y="10" width="15" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="participantIcon1" destination="mTU-Bc-Skx" id="TYJ-c1-r7m"/>
+                                            <outlet property="participantIcon2" destination="YEV-tz-jmm" id="Gtc-Oh-QMo"/>
+                                            <outlet property="participantIcon3" destination="aPs-hi-JIq" id="unE-AK-rvd"/>
+                                            <outlet property="participantIcon4" destination="Oti-CY-X40" id="fDl-S6-pMP"/>
+                                            <outlet property="participantIcon5" destination="jae-Sr-cMr" id="9HN-KO-sOq"/>
+                                            <outlet property="participantName" destination="pa9-WV-GPs" id="vju-8G-DmH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ddj-2r-mDL" id="kg5-KV-X6R"/>
+                                    <outlet property="delegate" destination="ddj-2r-mDL" id="NIV-95-SsN"/>
+                                </connections>
+                            </tableView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zYz-gz-Axg">
+                                <rect key="frame" x="0.0" y="260" width="250" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Host Control">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressConferenceMode:" destination="ddj-2r-mDL" eventType="touchUpInside" id="rPA-1v-EGY"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IYm-vH-Elt">
+                                <rect key="frame" x="0.0" y="280" width="250" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="1280x720">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressVideoQuality:" destination="ddj-2r-mDL" eventType="touchUpInside" id="eMP-SP-wwv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="250" height="320"/>
+                    <connections>
+                        <outlet property="conferenceModeBtn" destination="zYz-gz-Axg" id="DE0-gt-l9i"/>
+                        <outlet property="participantLabel" destination="VCY-Ab-wEN" id="4QA-vD-pRK"/>
+                        <outlet property="participantList" destination="36A-ZB-8mG" id="bmI-ZJ-HBs"/>
+                        <outlet property="videoQualityBtn" destination="IYm-vH-Elt" id="VEu-fP-wsA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YHz-Za-2i8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6" y="2"/>
+        </scene>
+        <!--Acu Conference Presenting View Controller-->
+        <scene sceneID="RIB-Oc-dBv">
+            <objects>
+                <viewController storyboardIdentifier="AcuConferencePresenting" id="PbL-nD-095" customClass="AcuConferencePresentingViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PwL-Hu-fNw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="hIl-ZQ-gsQ" customClass="AcuLocalVideoView">
+                                <rect key="frame" x="130" y="20" width="190" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hJ8-u3-iOP">
+                                        <rect key="frame" x="160" y="0.0" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Pin" image="iPhone_pin.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressedLocalVideoViewPin:" destination="PbL-nD-095" eventType="touchUpInside" id="Leq-tv-BHL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Y27-qW-bdb">
+                                        <rect key="frame" x="160" y="30" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="audio" image="iPhone_mic.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressedLocalVideoViewAudio:" destination="PbL-nD-095" eventType="touchUpInside" id="F7S-o4-08R"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zrJ-bk-v9B">
+                                        <rect key="frame" x="160" y="60" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="video" image="iPhone_cam.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressedLocalVideoViewVideo:" destination="PbL-nD-095" eventType="touchUpInside" id="FEw-eg-g2E"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="y7G-ot-vLl">
+                                        <rect key="frame" x="160" y="90" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="switchCam" image="iPhone_switch.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressedLocalVideoViewSwitch:" destination="PbL-nD-095" eventType="touchUpInside" id="WaQ-re-Y5g"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="6ut-8M-6pj">
+                                <rect key="frame" x="40" y="400" width="240" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Y0B-ZL-LgE">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="36" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Speak" backgroundImage="iPhone_speak.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressedSpeaker:" destination="PbL-nD-095" eventType="touchUpInside" id="kK3-LT-Edv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ndM-9N-MMq">
+                                        <rect key="frame" x="60" y="0.0" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="36" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Present" backgroundImage="iPhone_present.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressedPresenter:" destination="PbL-nD-095" eventType="touchUpInside" id="DOa-3b-VZq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Lvd-hh-5Rh">
+                                        <rect key="frame" x="120" y="0.0" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="36" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Layout" backgroundImage="iPhone_layout.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressedLayout:" destination="PbL-nD-095" eventType="touchUpInside" id="OV0-at-agW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TTX-cc-2Dk">
+                                        <rect key="frame" x="180" y="0.0" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="36" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Exit" backgroundImage="iPhone_exit.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressedExit:" destination="PbL-nD-095" eventType="touchUpInside" id="Aa4-iv-sr0"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xM5-h2-6Iz" userLabel="NoVideo">
+                                        <rect key="frame" x="60" y="0.0" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="36" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Video" backgroundImage="iPhone_novideo_d.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressedAcuComNoVideo:" destination="PbL-nD-095" eventType="touchUpInside" id="c8B-lS-XSX"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Pyw-Mr-EcT" userLabel="HandFree">
+                                        <rect key="frame" x="60" y="0.0" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="36" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Speaker" backgroundImage="iPhone_handfree.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressedAcuComHandFree:" destination="PbL-nD-095" eventType="touchUpInside" id="K79-z4-vjZ"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0Ss-0Z-UZt" userLabel="Hangup">
+                                        <rect key="frame" x="120" y="0.0" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="36" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Hangup" backgroundImage="iPhone_hangup.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressedExit:" destination="PbL-nD-095" eventType="touchUpInside" id="XmY-SV-FMG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="5m0-Bd-L0v">
+                                <rect key="frame" x="288" y="370" width="24" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indicator_audio.png" id="DSE-Eh-0sd">
+                                        <rect key="frame" x="1" y="2" width="20" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indicator_video.png" id="csP-El-gYa">
+                                        <rect key="frame" x="1" y="24" width="20" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indicator_chatmsg.png" id="bQ1-7p-RUQ">
+                                        <rect key="frame" x="1" y="46" width="20" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indicator_network_good.png" id="b65-TB-K1f">
+                                        <rect key="frame" x="1" y="68" width="20" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="aj2-nE-paN" appends="YES" id="Elq-xf-zGN"/>
+                        </connections>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="audioIndicator" destination="DSE-Eh-0sd" id="Kdd-Gh-ZFk"/>
+                        <outlet property="chatMsgIndicator" destination="bQ1-7p-RUQ" id="ceH-Y4-Tfo"/>
+                        <outlet property="hudToolbar" destination="6ut-8M-6pj" id="qRm-8v-cb4"/>
+                        <outlet property="indicatorToolbar" destination="5m0-Bd-L0v" id="X7f-3d-Zro"/>
+                        <outlet property="localVideoView" destination="hIl-ZQ-gsQ" id="lLH-AA-Ieg"/>
+                        <outlet property="localVideoViewAudioBtn" destination="Y27-qW-bdb" id="H3k-aE-oy0"/>
+                        <outlet property="localVideoViewPinBtn" destination="hJ8-u3-iOP" id="aZh-YU-fpj"/>
+                        <outlet property="localVideoViewSwitchCamBtn" destination="y7G-ot-vLl" id="hTX-e2-voi"/>
+                        <outlet property="localVideoViewVideoBtn" destination="zrJ-bk-v9B" id="p94-VP-FMN"/>
+                        <outlet property="networkIndicator" destination="b65-TB-K1f" id="s1J-kI-XUB"/>
+                        <outlet property="toolbarAcuComHandFree" destination="Pyw-Mr-EcT" id="SVK-Tv-UDz"/>
+                        <outlet property="toolbarAcuComHangup" destination="0Ss-0Z-UZt" id="3hg-9J-oBp"/>
+                        <outlet property="toolbarAcuComNoVideo" destination="xM5-h2-6Iz" id="kQ4-do-epx"/>
+                        <outlet property="toolbarExitBtn" destination="TTX-cc-2Dk" id="XkU-Lh-rWc"/>
+                        <outlet property="toolbarLayoutBtn" destination="Lvd-hh-5Rh" id="Ng7-sc-tQa"/>
+                        <outlet property="toolbarPresenterBtn" destination="ndM-9N-MMq" id="siQ-eA-P7g"/>
+                        <outlet property="toolbarSpeakerBtn" destination="Y0B-ZL-LgE" id="jEO-O7-jK3"/>
+                        <outlet property="videoIndicator" destination="csP-El-gYa" id="Tmd-rc-Xwk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4DY-9M-svk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="aj2-nE-paN">
+                    <connections>
+                        <action selector="didTapGesture:" destination="PbL-nD-095" id="oJA-M0-htv"/>
+                        <outlet property="delegate" destination="PbL-nD-095" id="vtH-Rb-nFs"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="343" y="82"/>
+        </scene>
+        <!--Acu Video View Controller-->
+        <scene sceneID="rly-tS-1v0">
+            <objects>
+                <viewController storyboardIdentifier="AcuVideoView" id="uFp-nU-uq4" customClass="AcuVideoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZgG-p8-SbS" customClass="AcuVideoView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5bf-0Z-jLY">
+                                <rect key="frame" x="85" y="20" width="150" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="conf_activespeaker.png" id="Tsb-zn-Laf">
+                                <rect key="frame" x="16" y="20" width="15" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="activeSpeakerIndictor" destination="Tsb-zn-Laf" id="zF1-Ok-6Iw"/>
+                        <outlet property="participantLabel" destination="5bf-0Z-jLY" id="MZN-Ng-hOC"/>
+                        <outlet property="videoView" destination="ZgG-p8-SbS" id="g4x-Xf-qSd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8M3-pa-qpP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1038" y="82"/>
+        </scene>
+        <!--Acu Conference Presenting Right View Controller-->
+        <scene sceneID="4s7-g1-bDy">
+            <objects>
+                <viewController storyboardIdentifier="AcuConferencePresenting_Right" id="Q10-zN-8ob" customClass="AcuConferencePresentingRightViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u3y-6I-RZJ">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="250" height="480"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sR7-qZ-68p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="686" y="82"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="conf_activespeaker.png" width="15" height="15"/>
+        <image name="iPhone_cam.png" width="30" height="30"/>
+        <image name="iPhone_exit.png" width="60" height="60"/>
+        <image name="iPhone_handfree.png" width="60" height="60"/>
+        <image name="iPhone_hangup.png" width="60" height="60"/>
+        <image name="iPhone_layout.png" width="60" height="60"/>
+        <image name="iPhone_mic.png" width="30" height="30"/>
+        <image name="iPhone_novideo_d.png" width="60" height="60"/>
+        <image name="iPhone_pin.png" width="30" height="30"/>
+        <image name="iPhone_present.png" width="60" height="60"/>
+        <image name="iPhone_speak.png" width="60" height="60"/>
+        <image name="iPhone_switch.png" width="30" height="30"/>
+        <image name="ic_launcher.png" width="72" height="72"/>
+        <image name="indicator_audio.png" width="48" height="48"/>
+        <image name="indicator_chatmsg.png" width="48" height="48"/>
+        <image name="indicator_network_good.png" width="48" height="48"/>
+        <image name="indicator_video.png" width="48" height="48"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

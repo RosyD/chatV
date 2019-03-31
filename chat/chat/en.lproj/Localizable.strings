@@ -1,0 +1,111 @@
+"user_profile_icon" = "Photo";
+"user_profile_name" = "Name";
+"user_profile_fname" = "First Name";
+"user_profile_lname" = "Last Name";
+"user_profile_account" = "Account";
+"user_profile_account2" = "Login ID";
+"user_profile_description" = "Comment";
+"user_profile_jobTitle" = "Job Title";
+"user_profile_phone" = "Mobile";
+"user_profile_email" = "Email";
+"user_profile_lastLogin" = "Last Access";
+"user_profile_company" = "Company";
+"user_profile_address" = "Address";
+"user_profile_department" = "Department";
+
+//placeholder
+"user_profile_ph_fname" = "Please set first name";
+"user_profile_ph_lname" = "Please set last name";
+"user_profile_ph_description" = "Please input comment";
+"user_profile_ph_jobTitle" = "Please set job title";
+"user_profile_ph_phone" = "Please set mobile";
+"user_profile_ph_address" = "Please input address";
+"user_profile_ph_department" = "Please set department";
+
+//Real-time Location End
+"RLoc End" = "End";
+//Location report Begin time
+"Report Begin" = "Begin";
+//Location report End time
+"Report End" = "End";
+
+"Entity_lastadmin_delete_format" = "You are the only admin in this %@. \nTransfer admin and leave OR Delete this %@ now.";
+"Entity_lastadmin_Transfer" = "Transfer";
+"Entity_lastadmin_Dismiss" = "Delete";
+"FontSize_Small" = "Small";
+"FontSize_Medium" = "Medium";
+"FontSize_Large" = "Large";
+"FontSize_Title" = "Font Size";
+
+//"Back" = "";
+"Input_Message" = "Input message";
+"Now_To_Talk" = "Talk now";
+"Hold_To_Talk" = "Hold to talk";
+"Take_Off_Send" = "Release to send";
+"Take_Off_Cancel" = "Drag up to cancel";
+"Release_Off_Cancel" = "Release to cancel";
+"Photo" = "Photos";
+"Video_Camera" = "Camera";
+"Video_Library" = "Videos";
+"chat_msgtype_contact" = "Contact Info";
+"chat_option_destrct" = "Secret chat";
+"chat_option_location" = "Location chat";
+"PersonContace_lable_Tel" = "phone";
+"PersonContace_lable_Mail" = "email";
+"PersonContace_empty" = "No info about this contact";
+
+"Begin Message" = "Message";
+"Prompt" = "";
+
+"Can't_Input_More" = "Can't input more";
+"Movie_Play_Fail" = "Movie has been deleted";
+"Please_Input_GroupName" = "Please input title";
+"Delete_Group_Will_Delete_For_admin" = "You are admin of %@, you will leave from it then, continue?";
+"Delete_Group_Will_Delete_For_Nomal" = "Remove %@ group?";
+"Delete_Chat_Will_Delete_For_Nomal" = "Remove %@ chat?";
+"Delete_Can_not_Prompt" = "Cannot delete this group";
+"Please_Open_Location" = "Please open location support";
+"Login_Failed" = "Login failed. Please check company, account and password";
+"You_Account_Logined_At_Other" = "Your account is login from another device";
+"InfoModify_After_Save_Exit" = "Save changes?";
+"InfoModify_Update_Success" = "Successfully Updated";
+"Network_Failed" = "Network error";
+"Check_Network" = "Please check the network";
+
+"VideoCall_Failed" = "Failed!";
+"VideoCall_Decline" = "Decline";
+"VideoCall_Answer" = "Answer";
+"VideoCall_Rejected_Calling" = "%@ is busy now.";
+"VideoCall_Rejected" = "%@ has rejected";
+"VideoCall_Cancel" = "Call cancelled";
+"VideoCall_End" = "Call ended";
+"VideoCall_Group_Video_Incoming" = "Incoming video call...";
+"VideoCall_Group_Incoming" = "Incoming call...";
+"VideoCall_Video_Incoming" = "Incoming video call...";
+"VideoCall_Incoming" = "Incoming call...";
+"VideoCall_msgType_Video" = "Video Call";
+"VideoCall_msgType_Radio" = "Audio Call";
+"yesterday" = "Yday";
+"GroupInfo" = "Group Info";
+"GroupName" = "Name:";
+"Who_Read" = "Who has read";
+"Had_Read_List" = "Show who read";
+
+"ParticipantList" = "Users";
+
+"MemberCount" = "Users:%@";
+"MemberEdit" = "Edit";
+"MemberEditEnd" = "Done";
+
+"Create_New_Chat" = "Search users";
+"Has_Not_Entered" = "Reach to the max";
+"Has can use sticker,to download" = "You have to download this sticker before use it";
+
+"Save Success" = "Successfully updated";
+"had_read" = "Read";
+
+
+
+
+
+"Conference_Connecting..." = "Connecting...";

@@ -1,0 +1,12 @@
+/* 
+  about.strings
+  chat
+
+  Created by Aculearn on 15/1/9.
+  Copyright (c) 2015年 Aculearn. All rights reserved.
+*/
+"About_Powered_By_AcuLearn" = "Powered by EGA";
+"About_AcuCom"  = "G-Chat";
+"user_profile_company" = "Organization";
+"Login_Failed" = "Login failed. Please check organization, account and password";
+"Feedback" = "G-Chat feedback";

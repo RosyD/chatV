@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ACMyStickerCell" id="KGk-i7-Jjw" customClass="ACMyStickerCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhW-P0-nSC">
+                        <rect key="frame" x="255" y="7" width="57" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Gw0-km-7Un"/>
+                            <constraint firstAttribute="width" constant="57" id="YCC-aC-e4V"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" image="EmotionDownload.png" backgroundImage="fts_green_btn.png">
+                            <color key="titleColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <state key="highlighted" image="EmotionDownloadHL.png" backgroundImage="fts_green_btn_HL.png"/>
+                        <connections>
+                            <action selector="downloadButtonTouchUp:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="AJw-nM-x9c"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FQa-1k-yi8">
+                        <rect key="frame" x="10" y="4" width="46" height="46"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="46" id="1E7-18-aXQ"/>
+                            <constraint firstAttribute="width" constant="46" id="6SU-5c-rJ0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miffy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BNp-yb-G9K">
+                        <rect key="frame" x="64" y="16" width="181" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="gQa-Tu-fsB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2iQ-3N-K7Z">
+                        <rect key="frame" x="0.0" y="54" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.86274509799999999" green="0.86666666670000003" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="iBm-yx-6z5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="WhW-P0-nSC" secondAttribute="trailing" constant="8" id="01f-Kg-vuY"/>
+                    <constraint firstItem="FQa-1k-yi8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="QYk-Ln-bWq"/>
+                    <constraint firstItem="2iQ-3N-K7Z" firstAttribute="top" secondItem="FQa-1k-yi8" secondAttribute="bottom" constant="4" id="Uz8-ZX-veE"/>
+                    <constraint firstItem="BNp-yb-G9K" firstAttribute="leading" secondItem="FQa-1k-yi8" secondAttribute="trailing" constant="8" id="Zvr-Gr-PkJ"/>
+                    <constraint firstAttribute="bottom" secondItem="2iQ-3N-K7Z" secondAttribute="bottom" constant="-1" id="b1n-SK-Eau"/>
+                    <constraint firstItem="WhW-P0-nSC" firstAttribute="leading" secondItem="BNp-yb-G9K" secondAttribute="trailing" constant="10" id="iL4-Kq-lQK"/>
+                    <constraint firstItem="WhW-P0-nSC" firstAttribute="centerY" secondItem="FQa-1k-yi8" secondAttribute="centerY" id="qfR-HJ-vlu"/>
+                    <constraint firstItem="FQa-1k-yi8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="soZ-3q-lU3"/>
+                    <constraint firstItem="BNp-yb-G9K" firstAttribute="centerY" secondItem="FQa-1k-yi8" secondAttribute="centerY" id="wlx-1G-Oul"/>
+                    <constraint firstAttribute="trailing" secondItem="2iQ-3N-K7Z" secondAttribute="trailing" id="yoD-HC-bEJ"/>
+                    <constraint firstItem="2iQ-3N-K7Z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="zJR-qb-aMH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="_downloadButton" destination="WhW-P0-nSC" id="93u-pZ-ABR"/>
+                <outlet property="_iconImageView" destination="FQa-1k-yi8" id="zeW-oE-9Qq"/>
+                <outlet property="_titleLabel" destination="BNp-yb-G9K" id="hQ1-9X-aVg"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="EmotionDownload.png" width="40" height="18"/>
+        <image name="EmotionDownloadHL.png" width="40" height="18"/>
+        <image name="fts_green_btn.png" width="30" height="30"/>
+        <image name="fts_green_btn_HL.png" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

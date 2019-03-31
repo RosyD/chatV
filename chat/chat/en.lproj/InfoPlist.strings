@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  chat
+
+  Created by 王方帅 on 14-5-25.
+  Copyright (c) 2014年 王方帅. All rights reserved.
+*/
+
+//CFBundleDisplayName ="AcuCom";
+CFBundleIconFile = "Icon.png";
+//NSLocationWhenInUseUsageDescription = "LocationWhenInUseUsage";
+//NSLocationAlwaysUsageDescription = "LocationAlwaysUsage";

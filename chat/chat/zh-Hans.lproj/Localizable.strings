@@ -1,0 +1,1506 @@
+/*
+   @LANGUAGE zh-Hans 
+   @DIRECTORY chat 
+   @FILE Localizable.strings 
+*/
+
+"user_profile_icon" = "头像";
+
+"user_profile_name" = "昵称";
+
+"user_profile_fname" = "名";
+
+"user_profile_lname" = "姓";
+
+"user_profile_account" = "账户";
+
+"user_profile_account2" = "登录名";
+
+"user_profile_description" = "状态信息";
+
+"user_profile_jobTitle" = "职位";
+
+"user_profile_phone" = "手机";
+
+"user_profile_email" = "邮箱";
+
+"user_profile_lastLogin" = "最近登录";
+
+"user_profile_company" = "公司";
+
+"user_profile_address" = "地址";
+
+"user_profile_department" = "部门";
+
+/* placeholder */
+"user_profile_ph_fname" = "请输入名";
+
+"user_profile_ph_lname" = "请输入姓";
+
+"user_profile_ph_description" = "请输入状态信息";
+
+"user_profile_ph_jobTitle" = "请输入职位";
+
+"user_profile_ph_phone" = "请输入手机";
+
+"user_profile_ph_address" = "请输入地址";
+
+"user_profile_ph_department" = "请输入部门";
+
+
+//Real-time Location End
+"RLoc End" = "结束";
+//Location report Begin time
+"Report Begin" = "开始时间";
+//Location report End time
+"Report End" = "结束时间";
+
+"Note"="笔记";
+//"Wallboard"="";
+"Post"="发送";
+
+"My Stickers" = "我的表情";
+
+"Entity_lastadmin_delete_format" = "你当前是唯一的管理员，你想把权限转交给其他用户然后离开，还是解散？";
+
+"Entity_lastadmin_Transfer" = "切换管理员";
+
+"Entity_lastadmin_Dismiss" = "解散";
+
+"FontSize_Small" = "小字体";
+
+"FontSize_Medium" = "中字体";
+
+"FontSize_Large" = "大字体";
+
+"FontSize_Title" = "字体";
+
+/* "Back" = ""; */
+"Input_Message" = "输入消息";
+
+"Now_To_Talk" = "现在说话";
+
+"Hold_To_Talk" = "按住说话";
+
+"Take_Off_Send" = "松开发送";
+
+"Take_Off_Cancel" = "上滑取消";
+
+"Release_Off_Cancel" = "松开取消";
+
+"Photo" = "照片";
+
+"Video_Camera" = "录像";
+
+"Video_Library" = "视频";
+
+"chat_msgtype_contact" = "好友联系方式";
+
+"chat_option_destrct" = "创建阅后即焚会话";
+
+"chat_option_location" = "创建带位置会话";
+
+"PersonContace_lable_Tel" = "电话";
+
+"PersonContace_lable_Mail" = "邮箱";
+
+"PersonContace_empty" = "此联系人无可用资料";
+
+"Prompt" = "";
+
+"Can't_Input_More" = "不能输入更多内容了";
+
+"Movie_Play_Fail" = "视频播放失败,文件已删除";
+
+"Please_Input_GroupName" = "请输入组名";
+
+"Delete_Group_Will_Delete_For_admin" = "你是%@组管理员，你将会离开本会话，是否继续？";
+
+"Delete_Group_Will_Delete_For_Nomal" = "离开%@组?";
+
+"Delete_Chat_Will_Delete_For_Nomal" = "离开%@组?";
+
+"Delete_Can_not_Prompt" = "该会话不允许退出";
+
+"Please_Open_Location" = "请开启系统定位支持";
+
+"Login_Failed" = "登录失败,请确认账号,密码,域名是否正确";
+
+"You_Account_Logined_At_Other" = "你使用的账号已在别处登录!";
+
+"InfoModify_After_Save_Exit" = "信息已修改,是否保存后再返回?";
+
+"InfoModify_Update_Success" = "信息修改已经上传";
+
+"Network_Failed" = "网络链接失败";
+
+"Check_Network" = "请检查网络后再试";
+
+"VideoCall_Failed" = "失败";
+
+"VideoCall_Decline" = "挂断";
+
+"VideoCall_Answer" = "接听";
+
+"VideoCall_Rejected_Calling" = "%@ 正在通话中";
+
+"VideoCall_Rejected" = "%@ 已拒绝";
+
+"VideoCall_Cancel" = "呼叫已取消";
+
+"VideoCall_End" = "通话结束";
+
+"VideoCall_Group_Video_Incoming" = "邀请你进行视频聊天...";
+
+"VideoCall_Group_Incoming" = "邀请你进行语音聊天...";
+
+"VideoCall_Video_Incoming" = "邀请你进行视频聊天...";
+
+"VideoCall_Incoming" = "邀请你进行语音聊天...";
+
+"VideoCall_msgType_Video" = "视频通话";
+
+"VideoCall_msgType_Radio" = "语音通话";
+
+"Answered on other device" = "已在其它终端应答";
+
+"Unsupported message type for current version." = "当前版本不支持该类型的消息。";
+
+"Speaker will start working after minimized" = "最小化后，声音会通过扬声器播放";
+
+"yesterday" = "昨天";
+
+"GroupInfo" = "群组信息";
+
+"GroupName" = "组名:";
+
+"Who_Read" = "已读用户列表";
+
+"Had_Read_List" = "已读列表";
+
+"ParticipantList" = "参与者列表";
+
+"MemberCount" = "成员:%@";
+
+"MemberEdit" = "编辑";
+
+"MemberEditEnd" = "完成";
+
+"Create_New_Chat" = "创建新聊天";
+
+"Has_Not_Entered" = "已经不能再输入了哦";
+
+"Has can use sticker,to download" = "有可以使用的贴图,是否下载";
+
+"Save Success" = "保存成功";
+
+"had_read" = "已读";
+
+"Conference_Connecting..." = "连接中...";
+
+"Website:" = "网址:";
+
+"Check For Updates" = "检查更新";
+
+"Checking For Updates" = "正在检查更新";
+
+"Check Updates Failed" = "检查更新失败";
+
+"No Update Available" = "您已在使用最新版本";
+
+"New version available (%@)" = "有新的版本(%@)";
+
+"Install" = "安装";
+
+"Please select the video less than %d seconds" = "请选择长度小于%d秒的视频文件";
+
+"Unread messages below" = "以下为新消息";
+
+"You can not see other users in this session." = "当前会话中，你没有权限看到其他人.";
+
+"Set admin" = "设置管理员";
+
+"Transfer admin" = "切换管理员";
+
+"You can not cancel the authority by yourself." = "你不能取消自己的管理员权限.";
+
+"All" = "全部";
+
+"Chat" = "聊天";
+
+"Event" = "活动";
+
+"Survey" = "调查";
+
+"Page" = "页面";
+
+"Settings" = "设置";
+
+"Edit" = "编辑";
+
+"Select Contact" = "选择联系人";
+
+"Select" = "选择";
+
+"Cancel" = "取消";
+
+"Search" = "查找";
+
+"Create Chat Room" = "创建聊天组";
+
+"Create" = "创建";
+
+"Back" = "后退";
+
+"Camera" = "拍摄";
+
+"Location" = "位置";
+
+"Send" = "发送";
+
+"Vibrate" = "震动";
+
+"Sound" = "声音";
+
+"Feedback" = "反馈";
+
+"About" = "关于";
+
+"Logout" = "注销";
+
+"Suggestions:" = "请写下你宝贵的意见:";
+
+/* "Mail_Cancelled" = "邮件已取消";"Mail_Saved" = "邮件已保存";"Mail_Sent" = "邮件已发送"; */
+"Mail failed" = "邮件发送失败";
+
+"OK" = "确定";
+
+"Do you want to logout?" = "确认注销吗?";
+
+"Loading" = "加载中";
+
+"Account" = "账户名";
+
+"Password" = "密码";
+
+"Login" = "登录";
+
+"Can't send mail" = "不能发送邮件";
+
+"Delete" = "删除";
+
+"Group" = "组";
+
+"Email_Failed" = "邮件发送失败,请重试";
+
+"Do you want to discard?" = "要取消编写吗？该内容将丢失";
+
+"Discard" = "确定";
+
+"Save" = "保存";
+
+"Copy" = "复制";
+
+"Email" = "邮件";
+
+"Done" = "完成";
+
+"Saving" = "保存中";
+
+"Failed" = "保存失败";
+
+"Saved" = "已保存";
+
+"Copying" = "复制中";
+
+"Copied" = "已复制";
+
+"Preparing" = "准备中";
+
+"Dismiss" = "关闭";
+
+"sec" = "秒";
+
+"Turn off alert" = "关闭警报";
+
+"Turn on alert" = "打开警报";
+
+"Direct chat" = "私聊";
+
+"Show Location" = "查看地理位置";
+
+"Forward to" = "转发到";
+
+"Recent chats" = "最近聊天";
+
+"Forward" = "转发";
+
+"Read by " = "已读";
+
+"Gallery" = "从手机相册获取";
+
+"Abort" = "中止";
+
+"Record time is too short" = "录音时间太短";
+
+"Personal info" = "个人信息";
+
+/* Login List title */
+"'s room" = "的会议室列表";
+
+/* Conference Presention LayoutMode */
+"1 Video" = "1路视频";
+
+/* Conference Presention LayoutMode */
+"1+S" = "1路视频+幻灯";
+
+/* Login New Quality
+ Login New Quality Title
+ Participant List Video Quality */
+"1280x720" = "1280x720";
+
+/* Login New Quality
+ Login New Quality Title
+ Participant List Video Quality */
+"1920x1080" = "1920x1080";
+
+/* Conference Presention LayoutMode */
+"2 Videos" = "2路视频";
+
+/* Conference Presention LayoutMode */
+"2+S" = "2路视频+幻灯";
+
+/* Conference Presention LayoutMode */
+"4 Videos" = "4路视频";
+
+/* Login New Quality
+ Login New Quality Title
+ Participant List Video Quality */
+"640x480" = "640x480";
+
+/* Login New Quality
+ Login New Quality Title
+ Participant List Video Quality */
+"800x600" = "800x600";
+
+/* Login New Quality
+ Login New Quality Title
+ Participant List Video Quality */
+"960x720" = "960x720";
+
+/* Login New Conference Security */
+"Access Code" = "会议密码";
+
+/* Login New AccessCode */
+"Access Code Can't Empty" = "会议密码不能为空";
+
+/* Login New Security */
+"Access Code:\n\t%@" = "会议密码:\n\t%@";
+
+/* Login New StartMode */
+"Anyone" = "任何人可以启动";
+
+/* Conference Error Code Info */
+"Authorization failure." = "用户认证失败.";
+
+/* Login New Conference Mode
+ Participant List ConferenceMode */
+"Boss Secretary" = "大型会议";
+
+/* Conference Error Code Info */
+"Cannot connect to server. Please contact your administrator." = "无法连接服务器.";
+
+/* StartSession Task RetCode Value */
+"Cannot use host account to join this conference session. " = "不能使用会议创建者的帐号加入会议。";
+
+/* Join List Login Go Click */
+"Cannot use host account." = "不能使用会议创建者账号。";
+
+/* Start Conference Tips */
+"Close" = "关闭";
+
+/* Join List Login with Join IsAcuConference Node
+ Join List Login with Join RetCode Node
+ Join List Login with Join UserID Node
+ Join List Login with Join UserID value
+ Join List with get_content_list RetCode Node
+ Login Join List StartMode LMS Alert
+ Login Join List with get_content_list RetCode Node
+ Login Join with get_content_list RetCode Node
+ Login List refresh with get_content_list Retcode node
+ Login New done Button ModuleName
+ Main Join Search RetCode Node
+ onLogin with login IsAcuConference node
+ onLogin with login RetCode node
+ onLogin with login UserID node
+ onLogin with login UserID value
+ welcome Login IsAcuConference node
+ welcome Login RetNode
+ welcome Login UserID
+ welcome Login UserID node */
+"Communication failed." = "与服务器通信失败。";
+
+/* Login New Conference Security
+ Main Join company Placeholder
+ Main Login company Placeholder */
+"Company" = "公司";
+
+/* Login New Security */
+"Company:\n\t" = "公司:\n\t";
+
+/* Conference Presention Conference End AlertView */
+"Conference ended!" = "会议已结束！";
+
+/* Login New Conference Mode title
+ Participant List ConferenceMode */
+"Conference Mode" = "会议模式";
+
+/* Login New Conference Quality
+ Participant List VideoQuality */
+"Conference Quality" = "会议质量";
+
+/* Conference Presention Exit Alert
+ Conference Presention Host Exit Alert */
+"Confirm Exit" = "确定退出";
+
+/* Start Conference Session Controller */
+"Connected Server Success!" = "服务器连接成功！";
+
+/* OPR Task with choose_main_as RetCode Value */
+"Connecting to conference server..." = "连接会议服务器...";
+
+/* Start Confernece Session Controller */
+"Control channel connected OK!" = "控制通道连接成功！";
+
+/* Start Confernece Session Controller */
+"Control channel connected to:" = "控制通道连接到： ";
+
+/* Start Confernece Session Controller */
+"Control Channel Connecting failure." = "控制通道连接失败。";
+
+/* Start Confernece Session Controller */
+"Control Channel Connecting..." = "控制通道正在连接...";
+
+/* Start Conference Session Controller */
+"Control channel disconnectd, reconnecting..." = "控制通道断连，重新连接中...";
+
+/* Login List context menu */
+"Copy Link" = "复制会议链接";
+
+/* Login New Conference Course
+ Login New Conference Security */
+"Course" = "课程";
+
+/* Login List context menu */
+"Delete Room" = "删除会议室";
+
+/* Login List doDelete */
+"Deleting room: " = "正在删除会议室：";
+
+/* Start Conference Display Name */
+"Display Name cannot be empty!" = "显示名不能为空!";
+
+/* Conference Presention Exit Alert */
+"Do you want to exit this session?" = "确实要退出会议？";
+
+/* Login New Conference Security */
+"Everyone can access" = "任何人可以访问";
+
+/* Conference Error Code Info */
+"Exceeded the maximum number of connections." = "达到会议室容量上限。";
+
+/* Conference Error Code Info */
+"Fail to create session." = "无法启动会议室.";
+
+/* Login New with LMS Key error
+ OPR Task with choose_main_as failed
+ OPR Task with opr_conf failed
+ OPR Task with opr_conf_image failed */
+"Failed to communicate with server." = "与服务器通信失败。";
+
+/* doLogin with get_login_protocol_type
+ Join List Login with get_login_protocol_type failed
+ Join List Login with Join failed
+ Join List with get_content_list failed
+ Login Join List StartMode LMS Alert
+ Login Join List with get_content_list failed
+ Login Join with get_content_list failed
+ Login List doDeleteRoom
+ Login List with refresh get_content_list
+ Login New done Button failed
+ Login New with get_user_conf_config error
+ Login New with LMS Key error
+ Main Join Search Faild
+ onLogin with get_login_protocol_type error
+ onLogin with login error
+ OPR Task with choose_main_as RetCode Node
+ OPR Task with choose_main_as RetCode Value
+ OPR Task with opr_conf RetCode Node
+ StartSession Task failed
+ StartSession Task RetCode Node
+ welcome Login */
+"Failed to connect server." = "与服务器连接失败。";
+
+/* Login New Conference Folders */
+"Folders" = "目录";
+
+/* OPR Task with opr_conf_image */
+"Found the best server." = "找到最佳会议服务器。";
+
+/* Start Conference Session Controller */
+"Getting available server list..." = "获取可用服务器列表...";
+
+/* Join List AccessCode Go Btn
+ Join List Go Btn */
+"Go" = "加入";
+
+/* Participant List Menu Item */
+"Grant" = "授权";
+
+/* Login New StartMode */
+"Host" = "只有创建者能启动";
+
+/* Login New Conference Mode
+ Participant List ConferenceMode */
+"Host Control" = "教学授课";
+
+/* Conference Presention Invited Presenter AlertView */
+"Host invites you to present, accept?" = "主席邀请你成为主讲人，接受邀请？";
+
+/* Conference Presention Invited Speaker AlertView */
+"Host invites you to speak, accept?" = "主席邀请你发言，接受邀请？";
+
+/* Conference Presention Conference End AlertView
+ Join List StartMode
+ Login Join List StartMode Alert
+ Login Join List StartMode LMS Alert
+ Start Conference Session Controller KickOut Alert */
+"Information" = "提示";
+
+/* Start Conference Session Controller */
+"Initialize conference failed!" = "初始化会议失败！";
+
+/* Login New Conference Mode
+ Participant List ConferenceMode */
+"Interactive" = "小组讨论";
+
+/* Conference Error Code Info */
+"Invaid extension parameter!" = "会议参数错误!";
+
+/* StartSession Task RetCode Value */
+"Invalid access code." = "无效的会议室密码。";
+
+/* StartSession Task RetCode Value */
+"Invalid conference room." = "无效的会议室。";
+
+/* Join List with get_content_list RetCode Value
+ Login Join List with get_content_list RetCode value
+ Login Join with get_content_list RetCode value
+ Login List doDeleteRoom
+ Login List refresh with get_content_list Retcode value
+ Login New done Button RetCode Value
+ Login New with get_user_conf_config RetCode value
+ Main Join Search RetCode Value */
+"Invalid parameters." = "无效的会议参数。";
+
+/* Conference Presention Invited Presenter AlertView
+ Participant List Menu Item */
+"Invite to present" = "邀请主讲";
+
+/* Conference Presention Invited Speaker AlertView
+ Participant List Menu Item */
+"Invite to speak" = "邀请发言";
+
+/* Participant List Menu Item */
+"Kick Out" = "逐出会议室";
+
+/* Conference Presention */
+"Layout Mode" = "布局";
+
+/* Participant List Menu Item */
+"Lock" = "锁定";
+
+/* Main Join
+ Main Login type */
+"Log Into" = "登录到";
+
+/* Join Room Login title Label */
+"Login BlackBoard" = "登录BlackBoard";
+
+/* Join List Login with Join RetCode value
+ Login Join List StartMode LMS Alert
+ onLogin with login RetCode value
+ OPR Task with choose_main_as RetCode Value
+ OPR Task with opr_conf RetCode Value
+ OPR Task with opr_conf_image RetCode Value
+ welcome Login RetCode value */
+"Login failed." = "登录失败，请重试。";
+
+/* Join Room Login title Label */
+"Login Moodle" = "登录Moodle";
+
+/* welcome Login UserID */
+"Login succeed." = "登录成功，请稍等。";
+
+/* OPR Task with opr_conf */
+"Looking for the best server..." = "查找最佳会议服务器...";
+
+/* Conference Presention Chat */
+"Messages" = "聊天消息";
+
+/* Conference Presention Exit Alert
+ Conference Presention Host Exit Alert
+ Conference Presention Invited Presenter AlertView
+ Conference Presention Invited Speaker AlertView */
+"No" = "否";
+
+/* Join List Login with Join IsConference value */
+"No conference privilege." = "此帐号没有启动会议的权限。";
+
+/* Login Join with get_content_list RetCode value
+ Main Join Search RetCode Value */
+"No conference room found." = "未找到可用会议室。";
+
+/* OPR Task with opr_conf
+ OPR Task with opr_conf_image */
+"No server available." = "未找到可用服务器。";
+
+/* Join List StartMode
+ Login Join List StartMode Alert */
+"Only host can start this conferenece." = "只有创建者才能启动此会议。";
+
+/* Conference Error Code Info */
+"Password error!" = "密码错误!";
+
+/* Join List AccessCode goClicked
+ Login New done Button
+ Login New Security */
+"Please fill in access code." = "请输入会议密码。";
+
+/* Join List Login Go Click
+ Login Join
+ Main Join
+ Main Login company */
+"Please fill in company." = "请输入公司。";
+
+/* Join List Login Go Click
+ Main Login password */
+"Please fill in password." = "请输入密码。";
+
+/* Join List Login Go Click
+ Login Join
+ Main Join
+ Main Login school */
+"Please fill in school." = "请输入学校。";
+
+/* Main Join
+ Main Login server */
+"Please fill in server." = "请输入服务器。";
+
+/* Login New done Button */
+"Please fill in title" = "请输入标题。";
+
+/* Join List Login Go Click
+ Login Join
+ Main Join
+ Main Login user */
+"Please fill in user." = "请输入用户。";
+
+/* Start Conference Display Name */
+"Please Input Display Name" = "请输入会议中的显示名";
+
+/* Login New Security */
+"Please select Company." = "请至少选择一个公司。";
+
+/* Join List Refresh Btn
+ Login Join List Refresh Button
+ Login List Refresh btn */
+"Refresh" = "刷新";
+
+/* Participant List Menu Item */
+"Revoke" = "关闭发言";
+
+/* Login New done Button */
+"Room creation succeed." = "会议室创建完成。";
+
+/* Login List doDeleteRoom */
+"Room Deleted." = "会议室已删除。";
+
+/* Login New Room Prefix */
+"Room_" = "Room_";
+
+/* Join Room Login company placehoder
+ Login Join company Placeholder
+ Main Join company Placeholder
+ Main Login company Placeholder */
+"School" = "学校";
+
+/* Login New Conference Security */
+"Security" = "会议安全";
+
+/* Conference Error Code Info */
+"Server fails to create session." = "无法创建会议室.";
+
+/* Conference Error Code Info */
+"Server not found. Please contact your administrator." = "找不到可用服务器.";
+
+/* Conference Error Code Info */
+"Server timeout." = "无法访问服务器.";
+
+/* Conference Error Code Info */
+"Session has ended." = "无效的会议室.";
+
+/* Conference Error Code Info */
+"Session has not started. Please try again later." = "会议室未启用，请稍后再试.";
+
+/* Conference Error Code Info */
+"Session not found." = "无效的会议室.";
+
+/* Participant List Menu Item */
+"Set as boss" = "设为主会场";
+
+/* Participant List Menu Item */
+"Set as Co-host" = "设为副主席";
+
+/* Participant List Menu Item */
+"Set as host" = "设为会议主席";
+
+/* Participant List Menu Item */
+"Set as participant" = "设为旁听者";
+
+/* Participant List Menu Item */
+"Set as presenter" = "设为主讲人";
+
+/* Participant List Menu Item */
+"Set as secretary" = "设为会议秘书";
+
+/* Participant List Menu Item */
+"Request to screen share" = "请求发起屏幕共享";
+
+/* Participant List Menu Item */
+"Request to close screen share" = "请求结束屏幕共享";
+
+/* Conference Error Code Info */
+"SIP server fails to start." = "无法启动电话网关.";
+
+/* Conference Error Code Info */
+"Software is out dated. Please upgrade the software from the server." = "客户端会议连接协议版本较低，请升级安装会议客户程序.";
+
+/* Conference Error Code Info */
+"Software version is higher and not compatible. Please install the software from the server." = "会议连接协议版本不匹配，请重新下载并安装会议客户程序.";
+
+/* Login New Conference Start Mode */
+"Start Mode" = "启动模式";
+
+/* Start Conference Session Controller */
+"Starting conference..." = "正在启动会议...";
+
+/* Participant List Menu Item */
+"Take presenter control" = "成为主讲人";
+
+/* onLogin with login IsAcuConference value
+ welcome Login IsAcuConference */
+"This account does not have conference privilege." = "此帐号没有启动会议的权限。";
+
+/* StartSession Task RetCode Value */
+"This account has been locked for another conference session." = "此帐号正在另一会议中被使用。";
+
+/* StartSession Task RetCode Value */
+"This account is not allowed to start conference." = "此帐号没有启动会议的权限。";
+
+/* StartSession Task RetCode Value */
+"This conference room has been disabled." = "此会议室已被禁用。";
+
+/* StartSession Task RetCode Value */
+"This conference session is not in progress." = "会议还未开始，请稍后再试。";
+
+/* Conference Error Code Info */
+"Timeout." = "连接超时.";
+
+/* Participant List Menu Item */
+"Unlock" = "解除锁定";
+
+/* StartSession Task RetCode Value */
+"User anthentication failed." = "用户认证失败。";
+
+/* Login New Conference Mode
+ Participant List ConferenceMode */
+"Video Conference" = "视频会议";
+
+/* Join List AccessCode goClicked */
+"Wrong access code." = "会议密码错误，请重试。";
+
+/* Join List Login Go Click
+ Join List Login with Join RetCode value
+ Login Join List StartMode LMS Alert */
+"Wrong account for the room." = "此账号无法访问此会议室。";
+
+/* Main Join Search RetCode Value
+ Join List Login with Join RetCode value
+ Login Join List StartMode LMS Alert
+ onLogin with login RetCode value
+ welcome Login RetCode value */
+"Wrong company." = "公司错误。";
+
+/* Login New done Button */
+"Wrong max participant number." = "请输入一个有效的最大参会人数。";
+
+/* Login New done Button */
+"Wrong max speaker number." = "请输入一个有效的最大发言人数。";
+
+/* Join List Login with Join RetCode value
+ Login Join List StartMode LMS Alert
+ onLogin with login RetCode value
+ welcome Login RetCode value */
+"Wrong password." = "密码错误。";
+
+/* Main Join Search RetCode Value
+ Join List Login with Join RetCode value
+ Login Join List StartMode LMS Alert
+ onLogin with login RetCode value
+ welcome Login RetCode value */
+"Wrong user." = "用户错误。";
+
+/* Main Join Search RetCode Value */
+"Wrong input." = "参数错误。";
+
+/* Conference Presention Exit Alert
+ Conference Presention Host Exit Alert
+ Conference Presention Invited Presenter AlertView
+ Conference Presention Invited Speaker AlertView */
+"Yes" = "是";
+
+/* Conference Presention Host Exit Alert */
+"You are the host of this session. Transfer host rights will allow the session to continue while you exit the conference. Click 'Yes' to transfer host rights or 'No' to end the conference session." = "你是主席，你是否想把权限转移，按'是'转移，按'否'结束会议";
+
+/* Login Join List StartMode Alert */
+"You cannot access this conference." = "你的账号无法访问此会议室。";
+
+/* Start Conference Session Controller KickOut Alert */
+"Your session has been terminated by the host." = "主席将你逐出会议室。";
+
+/* No comment provided by engineer. */
+"Go to room list" = "转到会议列表";
+
+/* Join Settings Display Name
+ Login Settings Display Name */
+"Please fill in Display Name." = "请输入会议中的显示名。";
+
+/* No comment provided by engineer. */
+"Settings saved." = "配置已保存。";
+
+/* No comment provided by engineer. */
+"Start a session" = "立即启动";
+
+"Connected" = "已连接";
+
+"Video call error." = "连接失败。";
+
+"Your password has been changed, please login again." = "Your password has been changed, please login again.";
+
+/* Used in the context: 'Showing 1 of 3 items' */
+"/" = "";
+
+/* No comment provided by engineer. */
+"%d person(s) sharing their location" = "%d人共享位置";
+
+/* No comment provided by engineer. */
+"%ld unread messages" = "%ld条未读消息";
+
+/* No comment provided by engineer. */
+"99+ unread messages" = "99+条未读消息";
+
+/* No comment provided by engineer. */
+"Access Denied" = "拒绝进入";
+
+/* No comment provided by engineer. */
+"accessory max count is " = "最大组件数是";
+
+/* No comment provided by engineer. */
+"accessory max count is" = "最大组件数是";
+
+/* No comment provided by engineer. */
+"Always on top" = "置顶会话";
+
+/* No comment provided by engineer. */
+"am" = "am";
+
+/* No comment provided by engineer. */
+"Audio Call" = "语音呼叫";
+
+/* No comment provided by engineer. */
+"Audio from" = "Audio 来自于";
+
+
+
+/* No comment provided by engineer. */
+"Call To" = "呼叫";
+
+/* No comment provided by engineer. */
+"Call" = "呼叫";
+
+/* No comment provided by engineer. */
+"Can't find this group" = "已经被删除";
+
+/* No comment provided by engineer. */
+"Add caption" = "标题";
+
+/* No comment provided by engineer. */
+"Category" = "分类";
+
+/* No comment provided by engineer. */
+"Change password" = "更改密码";
+
+/* No comment provided by engineer. */
+"Chat room have been closed" = "聊天组已经关闭";
+
+/* No comment provided by engineer. */
+"Click to join Real-time Location" = "单击加入实时位置";
+
+/* No comment provided by engineer. */
+"Comment added" = "评论已添加";
+
+/* No comment provided by engineer. */
+"Comment" = "评论";
+
+/* No comment provided by engineer. */
+"compress fail,fail count is " = "压缩失败";
+
+/* No comment provided by engineer. */
+"Confirm" = "确定";
+
+/* No comment provided by engineer. */
+"Connecting..." = "连接中";
+
+/* No comment provided by engineer. */
+"Content" = "内容";
+
+/* No comment provided by engineer. */
+"Converting audio" = "转换音频";
+
+/* No comment provided by engineer. */
+"Copy to clipboard" = "复制";
+
+/* No comment provided by engineer. */
+"Couldn't convert audio: %@" = "不能转换为音频: %@";
+
+/* No comment provided by engineer. */
+"Couldn't convert audio: Not supported on this device" = "不能转换为音频: 不支持这种设备";
+
+/* Error message */
+"Couldn't open the source file" = "文件打不开";
+
+/* Error message */
+"Couldn't read the source file" = "不能读文件";
+
+/* Error message */
+"Couldn't setup destination format" = "文件格式不对";
+
+/* Error message */
+"Couldn't setup intermediate conversion format" = "文件格式不对";
+
+/* No comment provided by engineer. */
+"Created by %@" = "由%@创建";
+
+/* No comment provided by engineer. */
+"Delete this comment?" = "删除评论？";
+
+/* No comment provided by engineer. */
+"Delete this Note?" = "删除笔记？";
+
+/* No comment provided by engineer. */
+"Disconnected" = "无网络连接";
+
+/* No comment provided by engineer. */
+"Do you want to clear history?" = "想要删除历史记录吗？";
+
+/* No comment provided by engineer. */
+"Do you want to resend?" = "是否重发？";
+
+/* No comment provided by engineer. */
+"Download" = "下载";
+
+/* No comment provided by engineer. */
+"Downloaded" = "已经下载";
+
+/* No comment provided by engineer. */
+"Email failed to send. Please try again." = "发送邮件失败。请重试。";
+
+/* Displayed with ellipsis as 'Preparing...' when an item is in the process of being prepared */
+"Email open in" = "打开邮件";
+
+/* No comment provided by engineer. */
+"End Real-time Location now?" = "结束实时位置";
+
+
+/* Error message */
+"Error reading the source file" = "读取文件错误";
+
+/* Error message */
+"Error writing the destination file" = "写文件错误";
+
+/* No comment provided by engineer. */
+"Error" = "错误";
+
+/* No comment provided by engineer. */
+"Every day" = "每天";
+
+/* No comment provided by engineer. */
+"Failed to upload" = "上传失败";
+
+/* No comment provided by engineer. */
+"Failed!" = "失败";
+
+/* No comment provided by engineer. */
+"File from" = "文件来自于";
+
+/* No comment provided by engineer. */
+"Finished" = "完成";
+
+/* No comment provided by engineer. */
+"Forget Password?" = "忘记密码";
+
+/* No comment provided by engineer. */
+"Fri" = "周五";
+
+/* No comment provided by engineer. */
+"Image from" = "图片来自于";
+
+/* No comment provided by engineer. */
+"In-App Banner" = "内部通知";
+
+/* No comment provided by engineer. */
+"In-App Sound" = "声音";
+
+/* No comment provided by engineer. */
+"In-App Vibrate" = "震动";
+
+/* No comment provided by engineer. */
+"Input the link you want to share" = "";
+
+/* Error message */
+"Interrupted" = "中断";
+
+/* No comment provided by engineer. */
+"Join" = "加入";
+
+/* No comment provided by engineer. */
+"Joined users" = "添加的用户";
+
+/* No comment provided by engineer. */
+"last updated" = "最近更新";
+
+/* No comment provided by engineer. */
+"Link" = "链接";
+
+/* No comment provided by engineer. */
+"Load more" = "加载更多";
+
+/* Loading Status */
+"Loading..." = "正在加载中";
+
+/* No comment provided by engineer. */
+"loading" = "正在加载";
+
+/* No comment provided by engineer. */
+"Location from" = "位置来自于";
+
+/* No comment provided by engineer. */
+"Login failed, please retry" = "登录失败，请重试";
+
+/* No comment provided by engineer. */
+"Mail" = "邮件";
+
+/* No comment provided by engineer. */
+"mon" = "周一";
+
+/* No comment provided by engineer. */
+"New location" = "新位置";
+
+/* No comment provided by engineer. */
+"New message from %@" = "消息来自于%@";
+
+/* No comment provided by engineer. */
+"No Internet Connection" = "无网络连接";
+
+/* No comment provided by engineer. */
+"Not connected to network" = "网络连接断开";
+
+/* No comment provided by engineer. */
+"Note Comment Banner" = "笔记评论提醒";
+
+/* No comment provided by engineer. */
+"Notification" = "提醒设置";
+
+/* No comment provided by engineer. */
+"Ok" = "确定";
+
+/* No comment provided by engineer. */
+"Okay" = "确定";
+
+/* No comment provided by engineer. */
+"Only %d photos please!" = "只能选择%d个图片";
+
+/* No comment provided by engineer. */
+"Only one link is supported." = "不能添加多个";
+
+/* No comment provided by engineer. */
+"Your location will be shared with other users in the group. Join now?" = "如果你加入了实时位置这个组其它用户能看到你的位置信息";
+
+/* No comment provided by engineer. */
+"Password updated successfully" = "更改密码成功";
+
+/* No comment provided by engineer. */
+"Please again to confirm password" = "请再一次确认密码";
+
+/* No comment provided by engineer. */
+"Please do not miss any one question" = "请选择每一个问题";
+
+/* No comment provided by engineer. */
+"Please input address" = "请输入地址";
+
+/* No comment provided by engineer. */
+"Please input comment" = "请输入评论";
+
+/* No comment provided by engineer. */
+"Please input content" = "请输入内容";
+
+/* No comment provided by engineer. */
+"Please input new password at least 6 character" = "请输入至少6位密码";
+
+/* No comment provided by engineer. */
+"Please input old password" = "请输入旧密码";
+
+/* No comment provided by engineer. */
+"Please open microphone support" = "不支持麦克风";
+
+/* No comment provided by engineer. */
+"pm" = "pm";
+
+/* No comment provided by engineer. */
+"Preview" = "预览";
+
+/* Pull down to refresh status */
+"Pull down to refresh..." = "向下刷新";
+
+/* No comment provided by engineer. */
+"pull up to load more" = "向上加载更多";
+
+/* No comment provided by engineer. */
+"Real-time Location will stop if you leave this session.Leave now?" = "如果离开这个会话将停止你的实时位置。确定离开?";
+
+/* No comment provided by engineer. */
+"Real-time Location" = "实时位置";
+
+/* No comment provided by engineer. */
+"Real-time Location(%d)" = "实时位置(%d)";
+
+/* No comment provided by engineer. */
+"release to load more" = "松开加载更多";
+
+/* Release to refresh status */
+"Release to refresh..." = "松开刷新";
+
+/* No comment provided by engineer. */
+"Reply to" = "回复to";
+
+/* No comment provided by engineer. */
+"Reply" = "回复";
+
+/* No comment provided by engineer. */
+"Resend" = "重发";
+
+/* No comment provided by engineer. */
+"Retry" = "重试";
+
+/* No comment provided by engineer. */
+"Sat" = "周六";
+
+/* No comment provided by engineer. */
+"Save Failed" = "保存失败";
+
+/* No comment provided by engineer. */
+"Save to album" = "保存到相册";
+
+/* No comment provided by engineer. */
+"Search in " = "搜索";
+
+/* No comment provided by engineer. */
+"Search Location" = "搜索位置";
+
+/* No comment provided by engineer. */
+"Search message result" = "搜索消息列表";
+
+/* No comment provided by engineer. */
+"Search user group result" = "搜索用户组列表";
+
+/* No comment provided by engineer. */
+"Search user result" = "搜索用户列表";
+
+/* No comment provided by engineer. */
+"Searching" = "搜索";
+
+/* No comment provided by engineer. */
+"Secret chat" = "私密聊天";
+
+/* No comment provided by engineer. */
+"Select All" = "全选";
+
+/* No comment provided by engineer. */
+"Select an Album" = "选择相册";
+
+/* No comment provided by engineer. */
+"Select photos" = "选择图片";
+
+/* No comment provided by engineer. */
+"Select time" = "选择时间";
+
+/* No comment provided by engineer. */
+"Selected" = "已选";
+
+/* No comment provided by engineer. */
+"Send by email" = "发送邮件";
+
+/* No comment provided by engineer. */
+"Send File" = "发送文件";
+
+/* No comment provided by engineer. */
+"Send Location" = "发送位置";
+
+/* No comment provided by engineer. */
+"Send the location at the center" = "发送位置";
+
+/* No comment provided by engineer. */
+"Send To" = "发给";
+
+/* No comment provided by engineer. */
+"Services" = "服务";
+
+/* No comment provided by engineer. */
+"Set location report time" = "设置位置上报时间";
+
+/* No comment provided by engineer. */
+"Signal %d was raised." = "信号%d在提升";
+
+/* No comment provided by engineer. */
+"Slide image to preview more cached images." = "左右滑动浏览更多缓存图片";
+
+/* No comment provided by engineer. */
+"Sort" = "排序";
+
+/* No comment provided by engineer. */
+"Sticker from" = "表情来自于";
+
+/* No comment provided by engineer. */
+"Sun" = "周日";
+
+/* No comment provided by engineer. */
+"System" = "系统";
+
+/* No comment provided by engineer. */
+"Terms & Condition and Privacy Policy" = "Terms & Condition and Privacy Policy";
+
+/* No comment provided by engineer. */
+"Thank you for your feedback" = "谢谢您的反馈";
+
+/* No comment provided by engineer. */
+"Thank you for your participation" = "谢谢您的参与";
+
+/* No comment provided by engineer. */
+"The latest %d unread messages below" = "最近%d条未读消息";
+
+/* No comment provided by engineer. */
+"The new password and the password cannot be the same" = "新密码与旧密码不能相同";
+
+/* No comment provided by engineer. */
+"The old password is wrong" = "旧密码错误";
+
+/* No comment provided by engineer. */
+"The two passwords do not match" = "密码不匹配";
+
+/* No comment provided by engineer. */
+"This app does not have access to your photos. You can enable access in Privacy Settings." = "不能进入相册，请设置对应的权限";
+
+/* No comment provided by engineer. */
+"This note has been removed!" = "笔记已经被删除";
+
+/* No comment provided by engineer. */
+"Thu" = "周四";
+
+/* No comment provided by engineer. */
+"Topic has been removed!" = "主题已经被删除";
+
+/* No comment provided by engineer. */
+"Total" = "总数";
+
+/* No comment provided by engineer. */
+"Tue" = "周二";
+
+/* No comment provided by engineer. */
+"Undo always on top" = "取消置顶";
+
+/* No comment provided by engineer. */
+"Uploaded successfully" = "上传成功";
+
+/* No comment provided by engineer. */
+"Uploading" = "正在上传";
+
+/* No comment provided by engineer. */
+"Video Call" = "视频呼叫";
+
+/* No comment provided by engineer. */
+"Video compressing" = "视频正在压缩";
+
+/* No comment provided by engineer. */
+"Video from" = "视频来自于";
+
+/* No comment provided by engineer. */
+"Video" = "摄像";
+
+/* No comment provided by engineer. */
+"WebLink" = "添加链接";
+
+/* No comment provided by engineer. */
+"Webpage" = "页面";
+
+/* No comment provided by engineer. */
+"Wed" = "周三";
+
+/* No comment provided by engineer. */
+"Weekdays" = "工作日";
+
+/* No comment provided by engineer. */
+"Welcome to event" = "提交成功";
+
+/* No comment provided by engineer. */
+"You can not chat with yourself." = "不能与自己会话";
+
+/* No comment provided by engineer. */
+"You can only send %d photos at a time." = "每次只能发送%d个图片";
+
+/* No comment provided by engineer. */
+"You sent a file" = "你发送了文件";
+
+/* No comment provided by engineer. */
+"You sent a image" = "你发送了图片";
+
+/* No comment provided by engineer. */
+"You sent a location" = "你发送了位置";
+
+/* No comment provided by engineer. */
+"You sent a sticker" = "你发送了表情";
+
+/* No comment provided by engineer. */
+"You sent a video" = "你发送了视频";
+
+/* No comment provided by engineer. */
+"You sent an audio" = "你发送了音频";
+
+/* No comment provided by engineer. */
+"You're sharing your location now." = "正在共享你的位置";
+
+/* No comment provided by engineer. */
+"All Day" = "全天";
+
+/* No comment provided by engineer. */
+"Broadcast" = "广播";
+
+/* No comment provided by engineer. */
+"Clear history" = "删除搜索历史";
+
+/* No comment provided by engineer. */
+"Confirm new password" = "确认新密码";
+
+/* No comment provided by engineer. */
+"Display Location" = "显示位置";
+
+/* No comment provided by engineer. */
+"Do not allow individual chat" = "禁止私聊";
+
+"Allow reply to broadcast" = "允许回复广播人";
+
+/* No comment provided by engineer. */
+"Friday" = "周五";
+
+/* No comment provided by engineer. */
+"From:%@" = "从:%@";
+
+/* No comment provided by engineer. */
+"Location Settings" = "位置设置";
+
+/* No comment provided by engineer. */
+"Members" = "成员";
+
+/* No comment provided by engineer. */
+"Message found: %d" = "在消息中找到: %d";
+
+/* No comment provided by engineer. */
+"Begin Message" = "发送消息";
+
+/* No comment provided by engineer. */
+"Monday" = "周一";
+
+/* No comment provided by engineer. */
+"New password" = "新密码";
+
+/* No comment provided by engineer. */
+"Normal chat" = "默认";
+
+/* No comment provided by engineer. */
+"Old password" = "旧密码";
+
+/* No comment provided by engineer. */
+"Personal Info" = "详细资料";
+
+/* No comment provided by engineer. */
+"Posts" = "笔记";
+
+/* No comment provided by engineer. */
+"Private browsing" = "隐藏搜索历史";
+
+/* No comment provided by engineer. */
+"Repeat" = "重复";
+
+/* No comment provided by engineer. */
+"Saturday" = "周六";
+
+/* No comment provided by engineer. */
+"Sticker gallery" = "表情";
+
+/* No comment provided by engineer. */
+"Sunday" = "周日";
+
+/* No comment provided by engineer. */
+"Thursday" = "周四";
+
+/* No comment provided by engineer. */
+"Timeline" = "动态消息";
+
+/* No comment provided by engineer. */
+"Tuesday" = "周二";
+
+/* No comment provided by engineer. */
+"User account found: %d" = "在账号中找到: %d";
+
+/* No comment provided by engineer. */
+"User group found: %d" = "在用户组中找到: %d";
+
+/* No comment provided by engineer. */
+"User name found: %d" = "在用户名中找到: %d";
+
+/* No comment provided by engineer. */
+"Wednesday" = "周三";
+
+"Sending" = "正在发送";
+
+"Hide" = "隐藏";
+
+"Please select contact!" = "请选择联系人！";
+
+"Please Check the Network" = "请检查网络";
+
+"Send Success" = "发送成功";
+
+"Picture quantity: %lu " = "图片数量: %lu";
+
+"Contact" = "联系人";

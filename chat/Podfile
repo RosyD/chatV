@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+
+abstract_target 'defaults' do
+
+    pod 'Masonry'
+    pod 'libjingle_peerconnection'
+    pod 'SocketRocket'
+
+    target 'chat'
+    target 'GovChat'
+    target 'shareChat'
+    
+end

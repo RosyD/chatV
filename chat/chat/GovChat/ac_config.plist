@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>loginServer</key>
+	<string>https://accounts.gchat.apps.go.th</string>
+	<key>About_Website_link</key>
+	<string>http://www.ega.or.th</string>
+	<key>FeedbackToRecipient</key>
+	<string>contact@ega.or.th</string>
+	<key>PolicyURL</key>
+	<string>https://download.gchat.apps.go.th/agreement.html</string>
+</dict>
+</plist>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ACGroupInfoVC">
+            <connections>
+                <outlet property="_activityView" destination="moL-9L-po9" id="kS4-kv-Nd6"/>
+                <outlet property="_membersCollectionView" destination="Vd6-VS-yxs" id="aHN-zC-Sp3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="272"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Vd6-VS-yxs">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="272"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="1Av-Xs-twx">
+                        <size key="itemSize" width="100" height="100"/>
+                        <size key="headerReferenceSize" width="50" height="50"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Fho-NH-gol"/>
+                        <outlet property="delegate" destination="-1" id="Jd5-uY-628"/>
+                    </connections>
+                </collectionView>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="moL-9L-po9">
+                    <rect key="frame" x="150" y="109" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Vd6-VS-yxs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Zm7-5D-1Gm"/>
+                <constraint firstItem="moL-9L-po9" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="h8y-oi-VJb"/>
+                <constraint firstItem="moL-9L-po9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lIe-mj-rvz"/>
+                <constraint firstItem="Vd6-VS-yxs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mGf-sX-eWE"/>
+                <constraint firstAttribute="trailing" secondItem="Vd6-VS-yxs" secondAttribute="trailing" id="zFI-Id-s3k"/>
+                <constraint firstAttribute="bottom" secondItem="Vd6-VS-yxs" secondAttribute="bottom" id="zkr-q2-5gz"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="269" y="123"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

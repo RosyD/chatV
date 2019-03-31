@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="46" id="KGk-i7-Jjw" customClass="ACShareActViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnt-eA-TBZ">
+                        <rect key="frame" x="69" y="12" width="223" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r31-mg-Qah">
+                        <rect key="frame" x="0.0" y="43" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="I2C-hU-iZu"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_singlechat.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Nh-Uv-Ifu">
+                        <rect key="frame" x="19" y="2" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="0KY-6f-Y56"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nnt-eA-TBZ" firstAttribute="leading" secondItem="7Nh-Uv-Ifu" secondAttribute="trailing" constant="10" id="7Zx-3r-SE8"/>
+                    <constraint firstItem="r31-mg-Qah" firstAttribute="top" secondItem="7Nh-Uv-Ifu" secondAttribute="bottom" constant="1" id="MA5-db-RPg"/>
+                    <constraint firstItem="7Nh-Uv-Ifu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="19" id="Wus-Fb-4Rs"/>
+                    <constraint firstAttribute="trailing" secondItem="r31-mg-Qah" secondAttribute="trailing" id="aeG-GL-zso"/>
+                    <constraint firstItem="7Nh-Uv-Ifu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="gUI-8U-V2l"/>
+                    <constraint firstItem="nnt-eA-TBZ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ghC-8d-6s1"/>
+                    <constraint firstAttribute="bottom" secondItem="r31-mg-Qah" secondAttribute="bottom" id="luo-Q5-Tzf"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="nnt-eA-TBZ" secondAttribute="trailing" constant="20" id="luy-ew-B8U"/>
+                    <constraint firstItem="r31-mg-Qah" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="zQe-pA-3t0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconImage" destination="7Nh-Uv-Ifu" id="peZ-8i-0Hl"/>
+                <outlet property="lineView" destination="r31-mg-Qah" id="f6k-zW-4A2"/>
+                <outlet property="title" destination="nnt-eA-TBZ" id="fbJ-UD-6RP"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="41"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_singlechat.png" width="50" height="50"/>
+    </resources>
+</document>

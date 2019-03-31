@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ACStickerPackageCell" id="KGk-i7-Jjw" customClass="ACStickerPackageCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miffy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lI-Yp-526">
+                        <rect key="frame" x="78" y="11" width="163" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="l6m-rx-u5D"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A lovely Dutch bunny" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uw5-qa-ZjP">
+                        <rect key="frame" x="78" y="40" width="163" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="VLN-pj-0AB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5Q-lb-MLw">
+                        <rect key="frame" x="251" y="16" width="57" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="QWj-qs-Qmd"/>
+                            <constraint firstAttribute="width" constant="57" id="iCI-OA-RjJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" image="EmotionDownload.png" backgroundImage="fts_green_btn.png">
+                            <color key="titleColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <state key="highlighted" image="EmotionDownloadHL.png" backgroundImage="fts_green_btn_HL.png"/>
+                        <connections>
+                            <action selector="downloadSuit:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="lBQ-dX-lUP"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W99-Cn-WFJ">
+                        <rect key="frame" x="0.0" y="72" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.86274509799999999" green="0.86666666670000003" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="szH-m7-aGU"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eLl-AA-VrT">
+                        <rect key="frame" x="8" y="6" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="LBH-HB-otL"/>
+                            <constraint firstAttribute="width" constant="60" id="eyh-rT-9vD"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="x5Q-lb-MLw" secondAttribute="trailing" constant="4" id="0va-x0-S6U"/>
+                    <constraint firstItem="1lI-Yp-526" firstAttribute="leading" secondItem="eLl-AA-VrT" secondAttribute="trailing" constant="10" id="4p6-zc-paA"/>
+                    <constraint firstAttribute="bottom" secondItem="W99-Cn-WFJ" secondAttribute="bottom" constant="-1" id="8fy-Vr-qqD"/>
+                    <constraint firstItem="x5Q-lb-MLw" firstAttribute="centerY" secondItem="eLl-AA-VrT" secondAttribute="centerY" id="Ao2-KT-ss0"/>
+                    <constraint firstItem="x5Q-lb-MLw" firstAttribute="leading" secondItem="1lI-Yp-526" secondAttribute="trailing" constant="10" id="Cu8-vi-9mR"/>
+                    <constraint firstItem="1lI-Yp-526" firstAttribute="top" secondItem="eLl-AA-VrT" secondAttribute="top" constant="5" id="Gay-SW-67M"/>
+                    <constraint firstItem="W99-Cn-WFJ" firstAttribute="top" secondItem="eLl-AA-VrT" secondAttribute="bottom" constant="6" id="RnX-vA-WDJ"/>
+                    <constraint firstItem="W99-Cn-WFJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="UN9-yf-JxD"/>
+                    <constraint firstItem="eLl-AA-VrT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="V3h-ti-Yhe"/>
+                    <constraint firstItem="Uw5-qa-ZjP" firstAttribute="bottom" secondItem="eLl-AA-VrT" secondAttribute="bottom" constant="-5" id="ZoB-xP-mxU"/>
+                    <constraint firstItem="eLl-AA-VrT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="chh-mD-96Y"/>
+                    <constraint firstItem="x5Q-lb-MLw" firstAttribute="leading" secondItem="Uw5-qa-ZjP" secondAttribute="trailing" constant="10" id="gPJ-oM-chv"/>
+                    <constraint firstItem="Uw5-qa-ZjP" firstAttribute="leading" secondItem="eLl-AA-VrT" secondAttribute="trailing" constant="10" id="rjQ-O9-9NP"/>
+                    <constraint firstAttribute="trailing" secondItem="W99-Cn-WFJ" secondAttribute="trailing" id="uhs-ar-bJa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="_descLabel" destination="Uw5-qa-ZjP" id="RfP-hc-C3y"/>
+                <outlet property="_downloadButton" destination="x5Q-lb-MLw" id="vNg-Vv-YRw"/>
+                <outlet property="_iconImageView" destination="eLl-AA-VrT" id="PAK-iS-oUB"/>
+                <outlet property="_titleLabel" destination="1lI-Yp-526" id="pFH-hK-Rdr"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="58"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="EmotionDownload.png" width="40" height="18"/>
+        <image name="EmotionDownloadHL.png" width="40" height="18"/>
+        <image name="fts_green_btn.png" width="30" height="30"/>
+        <image name="fts_green_btn_HL.png" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
